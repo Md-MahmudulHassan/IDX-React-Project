@@ -1,0 +1,43 @@
+.hero{
+    
+    background:linear-gradient(rgba(43, 85, 255, 0.2),rgb(133, 184, 255));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0dvh 10dvw 0dvh 10dvw;
+    overflow: hidden;
+}
+.hero-text p{
+    font-size: min(3vh,1.5vw);
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.hero-text h1{
+    font-size: min(10vh,4vw);
+    font-weight: 700;
+}
+#hand{
+    height: 10dvh;
+    max-height: 100%;
+}
+#latest-btn{
+color: #ffffff;
+background: #ff4400;
+padding: 0.5rem 1rem;
+border-radius: 50px;
+border: none;
+width: max-content;
+height: min-content;
+text-align: center;
+}
+#latest-btn img{
+    max-height: 100%;
+    margin-left: 0.5rem;
+}
+.hero-img img{
+    padding: 0 auto 0 auto;
+    width: 25dvw;
+    max-height: 100%;
+    float: right;
+}
