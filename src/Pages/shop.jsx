@@ -1,10 +1,10 @@
-import React from 'react'
-import {hero} from '../Components/hero/hero.jsx'
+import { React } from 'react'
+import {Hero} from '../Components/hero/hero'
 
-export const shop = () => {
+export const Shop = () => {
   return (
     <div>
-      <hero />
+      <Hero />
     </div>
   )
 }

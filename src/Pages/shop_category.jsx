@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const shop_category = () => {
+export const Shop_category = () => {
   return (
     <div>shop_category</div>
   )

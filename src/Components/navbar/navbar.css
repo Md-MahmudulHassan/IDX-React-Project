@@ -1,11 +1,11 @@
 .navbar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 100dvw;
+    width: 98dvw;
     justify-content: space-between;
     align-items: center;
     background: #ffffff;
-    padding: 1%;
+    padding: 2dvw;
 }
 .nav-logo{
     display: flex;
@@ -38,11 +38,12 @@
     position: relative;
 }
 .nav-menu hr{
-   border: none;
-   width: 80%;
-   height: 3px;
-   border-radius: 10px;
-   color: red;
+    border: 0;
+    border-radius: 10px;
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(to right, #ff8c00, #ff0080);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .nav-login{
     display: flex;

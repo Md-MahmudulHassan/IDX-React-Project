@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const product = () => {
+export const Product = () => {
   return (
-    <div>product</div>
+    <div>P</div>
   )
 }
