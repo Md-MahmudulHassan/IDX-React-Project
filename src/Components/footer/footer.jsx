@@ -10,7 +10,7 @@ export const Footer = () => {
     <div className='footer'>
         <div className="footer-logo">
             <img src={fotter_logo}/>
-            <p>Shop_name</p>
+            <p>Shooper</p>
         </div>
         <div className="footer_links">
             <ul>
@@ -31,11 +31,11 @@ export const Footer = () => {
             <div className="icon-container">
                 <img src={whatsapp}/>
             </div>
-            <div className="footer-copyright">
+        </div>
+        <div className="footer-copyright">
                 <hr/>
                 <p>© 2023 - All right reserved</p>
             </div>
-        </div>
 
 
     </div>

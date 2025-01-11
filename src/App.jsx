@@ -10,6 +10,7 @@ import {Shop_category} from './Pages/shop_category'
 import { Product} from './Pages/product'
 import { Cart} from './Pages/cart'
 import { Login_signup} from './Pages/login_signup'
+import { Footer } from './Components/footer/footer'
 function App() {
 
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/cart' element={<Cart />} />
         <Route path='/login' element={<Login_signup />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
    </>
   )
